@@ -1,0 +1,174 @@
+/* test css Luckae 2020-07-29 */
+
+#header {height:60px;background-color: #e3e3e3;}
+
+section#content div.row p {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.landing{
+background-image: url("images/mike-kelley-studio-gautier-deblonde-sfw.jpg");
+background-size: cover;
+background-position: center top;
+background-repeat: no-repeat;
+height:calc(100vh - 214px);
+margin: 0px !important;
+text-align: center;
+padding-top:5%;
+font-family: "gerberauploaded_file", arial, sans-serif;
+position: relative;
+overflow:auto;
+}
+
+#content {min-height:calc(100vh - 214px);}
+
+.landing .row h2, .landing .row p {color: #ffffff;}
+
+.landing .row h2 {
+font-size: 3rem;
+font-weight:100;
+font-family: "gerbera-lightuploaded_file", arial, sans-serif;
+}
+body {
+	height: 100%;
+	border: 1px solid transparent;
+}
+
+body, h1, h2, h3, h4, h5, h6, .inline-label, #navigation {font-family: "gerberauploaded_file", arial, sans-serif;}
+
+.landing .row p {font-family: "gerberauploaded_file", arial, sans-serif;}
+
+.landing .search h3 {display:none;}
+
+.landing .inline-label {color: #fff;}
+
+.landing #search_row_0 {padding-top:30px;}
+
+.landing .search {position: relative; z-index: 2;padding-bottom:50px;}
+
+.panel-footer {
+margin-top:0px;
+background-color: #333;
+color: #999999;
+border-top: none;
+padding:0px;
+position: relative;
+height: 100px;
+}
+
+.panel-footer>.row {margin-left:0px;margin-right:0px;}
+
+.panel-footer img {max-width:100px;}
+
+.navbar {margin-bottom:0px;}
+
+#header>.row {
+height:auto;
+padding-top:1rem;
+padding-bottom:1rem;
+padding-left:1rem;
+padding-right:1rem;
+text-align:center;
+background: #e3e3e3;
+border-bottom:none;
+}
+
+#header .logo {
+float:none;
+height:auto;
+width:70%;
+max-width:400px;
+}
+
+.footerLogo {padding:0px;height:100px;}
+
+.navbar-default {background: #fe8081; border-color: #fe8081;}
+
+.top-bar {
+background: #fe8081 !important;
+border-top: 1px solid transparent;
+border-bottom: 1px solid transparent;
+}
+
+@media screen and (min-width:768px) {
+	.navbar-nav {
+		float:right;
+	}
+}
+
+.navbar-default .navbar-nav>li>a {color: #333;}
+
+.navbar-default .navbar-collapse {border-color: #fe8081;}
+.footerBar {position: relative;height:100px;}
+
+.copyright {
+text-transform: uppercase;
+font-family: "gerberauploaded_file", arial, sans-serif;
+letter-spacing:1.4px;
+position: absolute;
+bottom:0px;
+right:10px;
+color: #999999 !important;
+font-size: 10px;
+}
+
+.photoCaption {
+position: absolute;
+right:10px;
+top: -22px;
+font-size: 12px;
+color: #fff;
+
+}
+
+@media only screen and (max-width: 480px) {
+
+.copyright {padding-left:15px;font-size: 11px;}
+.footerLogo {background: #e3e3e3; height: 100px;}
+.panel-footer img {margin:0px auto; }
+
+}
+
+.thumbnail {
+	Margin-bottom: 10px;
+  }
+  .objectimage {
+	width: 50%;
+	min-width: 150px;
+	margin: 0 0 1em 4em;
+  }
+  
+  .thumbnail {
+	Margin-bottom: 10px;
+  }
+  
+  section#content div.row p {
+	margin-left: 10%;
+	margin-right: 10%;
+  }
+  
+  h5,.h5 {
+	color: black;
+  }
+  
+  .record-type-badge.digital_object.external-digital-object__link {
+	color: #fe8080;
+  }
+  
+  .external-digital-object__content-container {
+	border: 1px solid #dfdfdf;
+  
+  }
+  
+  .external-digital-object__content-btn {
+	border: 1px solid #dfdfdf;
+	color: #000;
+	background-color: #f6f4f4;
+  }
+  
+  .external-digital-object__link:hover .external-digital-object__content-btn {
+	background-color: #fe808054;
+	border-color: #fe8080;
+  }
+  

@@ -1,0 +1,10 @@
+en:
+  brand:
+    welcome_head: Archives
+    welcome_message: |
+      <p>The Mike Kelley Foundation for the Arts maintains original papers and materials related to the artist’s life and work. The Mike Kelley Foundation is currently processing its archive of materials and is closed to the public. The Foundation may provide access to selected items at its discretion. Archival description will be made available as materials are processed. Please note that all artwork information in the archival description, including title and date, is supplied to facilitate research, but is provisional pending the completion of a catalogue raisonné.</p>
+
+  search_results:     
+    filter:
+      from: From Year 
+      to: To Year 
