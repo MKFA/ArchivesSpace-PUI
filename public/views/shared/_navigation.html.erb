@@ -17,6 +17,13 @@
         <li><a href="/search?&op%5B%5D=&q%5B%5D=4382">Video</a></li>
         <li><a href="/search?&op%5B%5D=&q%5B%5D=4383">Photo</a></li>
         <li><a href="/search?&op%5B%5D=&q%5B%5D=4380">Digital access</a></li>
+<% unless AppConfig[:pui_hide][:search_tab] %>
+            <li><a href="<%=  app_prefix('/search?reset=true') %>" title="<%= I18n.t('search_tab', :target => t('archive._plural'))%>">
+                <span class="fa fa-search" aria-hidden="true"></span>
+                <span class="sr-only"><%= I18n.t('search_tab', :target => t('archive._plural')) %></span>
+              </a>
+            </li>
+          <% end %>
         </ul>
         </div>
     </div>
