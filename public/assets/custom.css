@@ -83,10 +83,7 @@ max-width:400px;
 
 .footerLogo {padding:0px;height:100px;}
 
-.navbar-default .navbar-nav > li > a.nav-link {
-color: #333;
-font-size: 1rem !important;
-}
+.navbar-default {background: #fe8081; border-color: #fe8081;}
 
 .top-bar {
 background: #fe8081 !important;
@@ -179,4 +176,3 @@ color: #fff;
   }
 
   
-
