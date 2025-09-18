@@ -14,7 +14,7 @@ background-position: center top;
 background-repeat: no-repeat;
 height:calc(100vh - 214px);
 margin: 0px !important;
-text-align: center;
+text-align: center !important;
 padding-top:5%;
 font-family: "gerberauploaded_file", arial, sans-serif;
 position: relative;
@@ -47,6 +47,15 @@ body, h1, h2, h3, h4, h5, h6, .inline-label, #navigation {font-family: "gerberau
 
 .landing .search {position: relative; z-index: 2;padding-bottom:50px;}
 
+.search label {
+  display: none;
+  margin-bottom: 0.5rem;
+}
+
+.search.pt-3 {
+  margin-left: 10%;
+}
+
 .panel-footer {
 margin-top:0px;
 background-color: #333;
@@ -56,6 +65,8 @@ padding:0px;
 position: relative;
 height: 100px;
 }
+
+
 
 .panel-footer>.row {margin-left:0px;margin-right:0px;}
 
@@ -98,8 +109,8 @@ border-bottom: 1px solid transparent;
 }
 
 .navbar-default .navbar-nav > li > a.nav-link {
-color: #333;
-font-size: 1rem !important;
+  color: #333;
+  font-size: 1rem !important;
 }
 
 .navbar-default .navbar-collapse {border-color: #fe8081;}
@@ -125,12 +136,34 @@ color: #fff;
 
 }
 
-@media only screen and (max-width: 480px) {
+.footerLogo {
+  background-color: white; /* white background for logo */
+  padding: 10px;
+  text-align: center;
+}
 
-.copyright {padding-left:15px;font-size: 11px;}
-.footerLogo {background: #e3e3e3; height: 100px;}
-.panel-footer img {margin:0px auto; }
+.footerBar {
+  text-align: center;
+}
 
+/* Responsive styling for mobile devices */
+@media (max-width: 576px) {
+  .panel-footer .row {
+    display: flex;
+    flex-direction: column-reverse; /* swaps order: logo goes below copyright */
+    align-items: center;
+    text-align: center;
+  }
+
+  .footerLogo, .footerBar {
+    float: none !important; /* override inline styles */
+    width: 100%;
+  }
+
+  .footerLogo img {
+    max-width: 200px;
+    margin: 10px auto;
+  }
 }
 
 .thumbnail {
@@ -174,5 +207,3 @@ color: #fff;
 	background-color: #fe808054;
 	border-color: #fe8080;
   }
-
-  
